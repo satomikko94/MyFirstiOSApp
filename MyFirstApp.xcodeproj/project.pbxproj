@@ -21,6 +21,7 @@
 		EE4DCAA31934A626009B9C29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4DCA851934A626009B9C29 /* UIKit.framework */; };
 		EE4DCAAB1934A626009B9C29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE4DCAA91934A626009B9C29 /* InfoPlist.strings */; };
 		EE4DCAAD1934A626009B9C29 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DCAAC1934A626009B9C29 /* MyFirstAppTests.m */; };
+		EE4DCAB71934A844009B9C29 /* shibao.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4DCAB61934A844009B9C29 /* shibao.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EE4DCAA81934A626009B9C29 /* MyFirstAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstAppTests-Info.plist"; sourceTree = "<group>"; };
 		EE4DCAAA1934A626009B9C29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE4DCAAC1934A626009B9C29 /* MyFirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppTests.m; sourceTree = "<group>"; };
+		EE4DCAB61934A844009B9C29 /* shibao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shibao.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		EE4DCA751934A625009B9C29 = {
 			isa = PBXGroup;
 			children = (
+				EE4DCAB61934A844009B9C29 /* shibao.png */,
 				EE4DCA871934A626009B9C29 /* MyFirstApp */,
 				EE4DCAA61934A626009B9C29 /* MyFirstAppTests */,
 				EE4DCA801934A626009B9C29 /* Frameworks */,
@@ -197,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Satomi Moriki";
+				ORGANIZATIONNAME = satomikko94;
 				TargetAttributes = {
 					EE4DCA9E1934A626009B9C29 = {
 						TestTargetID = EE4DCA7D1934A626009B9C29;
@@ -231,6 +234,7 @@
 				EE4DCA9A1934A626009B9C29 /* Images.xcassets in Resources */,
 				EE4DCA8C1934A626009B9C29 /* InfoPlist.strings in Resources */,
 				EE4DCA951934A626009B9C29 /* Main.storyboard in Resources */,
+				EE4DCAB71934A844009B9C29 /* shibao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

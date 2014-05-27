@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -18,6 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [_label setHidden:YES];
+}
+- (IBAction)pushedButton:(id)sender {
+    if (_label.hidden == YES) {
+        [_label setHidden:NO];
+    } else {
+        [_label setHidden:YES];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
